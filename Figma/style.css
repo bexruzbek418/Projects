@@ -253,13 +253,22 @@ background-color: blue;
 }
 .l p{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     width: 210px;
     color: blue;
 }
 .s{
-    bottom: -400px;
-    right: 600px;
-    position: absolute;
+
     color: black;
+}
+.C{
+    display:flex;
+    flex-wrap: wrap;
+}
+small a{
+    color: black;
+    position: absolute;
+    bottom: -780px;
+    text-align: center;
+    left: 600px;
 }
