@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.h{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("Без названия (1).jpg");
+    width: 100%;
+    height: 800px;
+}
+img{
+    
+    width: 100%;
+    height: 100%;
+}
+.q{
+    height: 100px;
+    width: 100px;
+}
+a{
+    font-size: 20px;
+    transition: 1s;
+    color: white;
+    text-decoration: none;
+}
+header{
+    align-items: center;
+    height: 70px;
+    justify-content: space-around;
+    display: flex;
+}
+nav{
+}
+a:hover{
+
+}
