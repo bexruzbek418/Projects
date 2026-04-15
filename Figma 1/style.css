@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.h{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("Без названия (1).jpg");
+    width: 100%;
+    background-position: center;
+    height: 600px;
+}
+img{
+    
+    width: 100%;
+    height: 100%;
+}
+.q{
+    height: 100px;
+    width: 100px;
+}
+a{
+    font-size: 20px;
+    transition: 1s;
+    color: white;
+    text-decoration: none;
+}
+header{
+    align-items: center;
+    height: 70px;
+    justify-content: space-around;
+    display: flex;
+}
+nav{
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    display: flex;
+}
+a:hover{
+    border-radius:20px ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    width: 150px;
+ background-color: blue;
+}
+.box{
+    height: 400px;
+    width: 500px;
+}
+.box h1{
+    font-size: 60px;
+    color: white;
+}
+.con{
+    margin-top: 70px;
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.box p{
+    color: rgb(93, 93, 93);
+    font-size: 30px;
+}
+.con nav{
+    height: 100px;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+}
+.b{
+    width: 350px;
+    height: 300px;
+}
+.a{
+    margin-top: 100px;
+    gap: 30px;
+    display: flex;
+    justify-content:center;
+}
+.b img{
+    width: 80px;
+    height: 80px;
+}
+.b p{
+    opacity:0.6;
+}
