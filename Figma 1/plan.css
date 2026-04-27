@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom, #000000, #010120);
+}
+.xat{
+   text-align: center;
+    width: 100%;
+}
+.xat h1, p{
+    color: white;
+}
+.xat p{
+    opacity: 0.5;
+    margin: 20px;
+}
+header{
+    height: 50px;
+}
+.p{
+    position: fixed;
+    font-size: 20px;
+    transition: 1s;
+    color: white;
+    text-decoration: none;
+}
+.p:hover{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    border-radius:20px ;
+    height: 50px;
+    width: 150px;
+  background-color: blue;
+}
+.c{
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+}
+.t{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+}
