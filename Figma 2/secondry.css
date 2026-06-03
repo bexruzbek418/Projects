@@ -1,0 +1,88 @@
+.bir{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.p{
+    position: fixed;
+    font-size: 20px;
+    transition: 1s;
+    color: black;
+    text-decoration: none;
+}
+.p:hover{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    border-radius:20px ;
+  
+    height: 50px;
+    width: 150px;
+  background-color: blue;
+}
+.c img{
+    width: 300px;
+    height: 200px;
+}
+.ikki{
+    margin-top: 70px;
+}
+.c{
+    width: 1000px;
+    display: flex;
+    justify-content:center;
+}
+.uch{
+    text-align: center;
+    margin-top: 100px;
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-size: cover ;
+    background-image: url("SL-011719-17920-65.jpg");
+}
+.uch img{
+    width: 100%;
+    height: 100%;
+}
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+header{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.b{
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    width: 1000px;
+}
+.t img{
+    height: 200px;
+    width: 300px;
+}
+.t{
+    margin-top: 100px;
+    flex-direction: column;
+    display: flex;
+    height: 500px;
+    width: 300px;
+    text-align: justify;
+    background-color: white;
+}
+.t h1{
+    font-size: 20px;
+}
+.t a{
+    margin-left: 190px;
+    margin-top: 80px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.t p{
+    margin-top: 30px;
+}

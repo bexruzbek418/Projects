@@ -1,0 +1,126 @@
+body
+{ background-image: url("b.jpg");
+background-position: center;
+background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+height: 97vh;
+}
+.box
+{
+    background-color: white;
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    margin: 0 auto;
+
+}
+.boxx
+{
+    margin-top: 20px;
+    margin-left: 140px;
+    
+}
+input
+{
+    width: 530px;
+    height: 30px;
+}
+.boxx p
+{
+    opacity: 0.6;
+}
+.boxx a
+{
+    color: black;
+    margin-left: 180px;
+}
+.p
+{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.google
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 530px;
+    height: 40px;
+    gap: 10px;
+    border: 1.9px solid;
+    border-radius: 50px;
+}
+.google img
+{
+    width: 20px;
+    height: 20px;
+}
+button
+{
+    width: 140px;
+    height: 50px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.462);
+    color: white;
+    border-radius: 20px;
+ 
+}
+.goo
+{
+margin-left:80px;
+display:flex;
+gap: 10px;
+}
+.btn-home {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 22px;
+  background: #ffffff;
+  border: 0.5px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #111111;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative; 
+  margin-bottom: 16px;
+}
+
+.btn-home::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #378ADD;
+  border-radius: 0 0 8px 8px;
+  transform: scaleX(0);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-home:hover::after {
+  transform: scaleX(1);
+}
+
+.btn-home:hover {
+  transform: translateY(-1px);
+  border-color: #c0c0c0;
+}
+
+.btn-home__icon {
+  color: #378ADD;
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.btn-home:hover .btn-home__icon {
+  transform: rotate(-12deg) scale(1.1);
+}

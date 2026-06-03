@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    height: 800px;
+    background-image: url("Без\ названия\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ss {
+    left: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.mainleft {
+    color: white;
+    width: 30%;
+    margin-top: 150px;
+    height: 300px;
+}
+
+.mainleft p {
+    color: gray;
+    font-size: 30px;
+}
+
+.mainleft h1 {
+    font-size: 60px;
+}
+
+nav {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.mainright img {
+    width: 600px;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.mainright {
+    width: 600px;
+    height: 400px;
+}
+
+.mainlar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bo {
+    width: 350px;
+    height: 300px;
+}
+
+.er {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+}
+
+.bo img {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.bo h1 {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.bo p {
+    margin-left: 15px;
+}
+
+.bbb {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+}
+
+/* Learn More & Secondary — outlined белая */
+.btn-learnmore,
+.btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 12px 24px;
+    background: transparent;
+    border: 1.5px solid white;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white !important;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-learnmore::before,
+.btn-secondary::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 0;
+}
+
+.btn-learnmore:hover::before,
+.btn-secondary:hover::before {
+    transform: scaleX(1);
+}
+
+.btn-learnmore:hover,
+.btn-secondary:hover {
+    color: #111 !important;
+}
+
+.btn-learnmore span,
+.btn-learnmore i,
+.btn-secondary span,
+.btn-secondary i {
+    position: relative;
+    z-index: 1;
+    transition: color 0.25s;
+    font-size: 16px;
+}
+
+/* Sign Up — белая pill */
+.btn-signup {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 22px;
+    background: white;
+    border: none;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #111 !important;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.2s, gap 0.2s;
+}
+
+.btn-signup:hover {
+    transform: translateY(-2px);
+    gap: 14px;
+}
+
+.btn-signup i {
+    font-size: 16px;
+    color: #D85A30;
+    transition: transform 0.2s;
+}
+
+.btn-signup:hover i {
+    transform: rotate(15deg);
+}
+
+/* Pricing & plans — teal ghost */
+.btn-pricing {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 13px 24px;
+    background: transparent;
+    border: 1.5px solid #1D9E75;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0F6E56 !important;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-pricing::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #1D9E75;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 0;
+}
+
+.btn-pricing:hover::before {
+    transform: scaleX(1);
+}
+
+.btn-pricing:hover {
+    color: #E1F5EE !important;
+}
+
+.btn-pricing i {
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    transition: color 0.2s;
+}
