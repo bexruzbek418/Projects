@@ -1,0 +1,230 @@
+.box
+{
+    background-image: url("photo_2026-06-03_10-39-58.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+      width: 100%;
+    height: 600px;
+    color: white; 
+    
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.box img
+{
+width: 100px;
+}
+header h3
+{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.r
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header button
+{
+    border: none;
+    width: 200px;
+    height: 35px;
+    background-color: rgb(56, 157, 240) ;
+    color: white;
+    border-radius: 7px;
+}
+.mainleft
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+    height: 400px;
+}
+main
+{
+display: flex;
+align-items: center;
+justify-content: space-around;
+height: 490px;
+margin-top: 30px;
+}
+.mainright
+{
+    width: 400px;
+}
+.mainright img
+{
+    width: 400px;
+    height: 300px;
+}
+.mainleft button
+{
+     border: none;
+    width: 160px;
+    height: 35px;
+    background-color: rgb(56, 157, 240) ;
+    color: white;
+    border-radius: 5px;
+
+
+}
+.main
+{
+    display: flex;
+align-items: center;
+justify-content: space-around;
+height: 490px;
+margin-top: 30px;
+}
+.ml
+{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+    height: 400px;    
+}
+.ml h1
+{
+    font-size: 60px;
+}
+.mr img
+{
+    width: 500px;
+}
+.ml button
+{
+      border: none;
+    width: 160px;
+    height: 35px;
+    background-color: rgb(56, 157, 240) ;
+    color: white;
+    border-radius: 5px;
+
+}
+.mainn
+{
+     display: flex;
+align-items: center;
+justify-content: space-around;
+height: 490px;
+margin-top: 30px;
+}
+.mll img
+{
+    width: 400px;
+}
+.mrr
+{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+    height: 400px;   
+    margin-top: 240px;
+}
+.mrr button
+{
+        border: none;
+    width: 160px;
+    height: 35px;
+    background-color: rgb(56, 157, 240) ;
+    color: white;
+    border-radius: 5px;
+}
+
+.mer img 
+{
+     width: 400px;
+    height: 270px;
+}
+.mn
+{
+       display: flex;
+align-items: center;
+justify-content: space-around;
+height: 490px;
+margin-top: 30px;  
+}
+.mel button
+{
+    border: none;
+    width: 160px;
+    height: 35px;
+    background-color: rgb(56, 157, 240) ;
+    color: white;
+    border-radius: 5px;
+}
+.mn
+{
+
+     display: flex;
+align-items: center;
+justify-content: space-around;
+height: 300px;
+margin-top: 30px;
+background-color: rgb(2, 2, 188);
+}
+.mel
+{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+    height: 200px; 
+    color: white;
+
+
+}
+.mer
+{
+        width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+#main
+{
+  display: flex;
+align-items: center;
+justify-content: space-around;
+height: 300px;
+margin-top: 30px;
+}
+#mainleft
+{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+#mainright
+{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+    height: 200px; 
+    color: black;
+}
+#mainleft img
+{
+      width: 500px;
+    height: 500px;
+}
+#mainright button
+{
+    width: 160px;
+    height: 35px;
+    background-color: rgb(56, 157, 240) ;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
