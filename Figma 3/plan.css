@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header span{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+.q{
+    text-align: center;
+    width: 390px;
+}
+header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.b{
+    border-radius: 5px;
+    width:300px ;
+    height: 480px;
+    border: 1px solid yellow;
+}
+.n{
+    height: 530px;
+    width: 400px;
+}
+.n .xat{
+    width: 250px;
+}
+.n{
+    color: white;
+    border: none;
+    background-color: rgb(5, 5, 144);
+}
+.n button{
+    margin-top: 50px;
+    color: white;
+    border: none;
+    background-color: aqua;
+}
+.n span{
+    color: gold;
+}
+.c{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.xat h3, h2{
+    font-weight: initial;
+}
+.xat{
+    width: 200px;
+    margin-left: 20px;
+}
+button{
+    margin-top: 10px;
+    border-radius: 5px;
+    width:100px ;
+    height: 30px;
+    background-color: white;
+    border: 1px solid yellow;
+}
+main{
+    background-image: url("backround.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 150px;
+}
+.x{
+    text-align: center;
+    width: 550px;
+}
+.x span{
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+.x button{
+    margin-top: 10px;
+    color: white;
+    border: none;
+    background-color: aqua;
+}
+.l img{
+    height: 350px;
+    margin-top: -120px;
+}
